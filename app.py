@@ -102,7 +102,7 @@ def run_inference(
 
 st.set_page_config(
     page_title="Predicción cardíaca | ACA 2",
-    page_icon="🫀",
+    page_icon="❤️",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
@@ -125,7 +125,7 @@ st.markdown(
 st.markdown(
     """
     <div class="hero">
-      <h1>🫀 Estimación de enfermedad cardíaca</h1>
+      <h1>❤️ Estimación de enfermedad cardíaca</h1>
       <p>Demostración académica ACA 2 · Perceptrón multicapa entrenado con el conjunto Cleveland</p>
     </div>
     """,
