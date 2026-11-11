@@ -1,0 +1,23 @@
+# Entornos y cachés de Python
+.venv/
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Sistema operativo, temporales y logs
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.log
+logs/
+
+# Secretos y credenciales locales
+.env
+.env.*
+!.env.example
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
